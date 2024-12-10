@@ -113,7 +113,8 @@ fun DescripcionView(signo: Signo){
     Card(
         colors = CardDefaults.cardColors(
             contentColor = MaterialTheme.colorScheme.secondary,
-            containerColor = Color.Blue
+            containerColor = MaterialTheme.colorScheme.secondaryContainer
+
         ),
         modifier = Modifier.padding(20.dp)
     ) {
